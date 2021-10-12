@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>As Earths dominant species educations is key to our continued superiority</h1><p>Click bellow to lean some facts</p>
+<style>
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+</head>
+<body style="text-align:center">
+
+
+
+<div class="popup" onclick="myFunction()">Example #1 about how we became the apex predator!
+  <span class="popuptext" id="myPopup">We can turn their ears 180 degrees so We can hear what is coming from behind us! Use this to your advatage in the field cadet!</span>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<p>
+</head>
+<body style="text-align:center">
+
+
+
+<div class="popup" onclick="my()">comuncation 101 
+  <span class="popuptext" id="myPopupone">As solo players on this server we can handle communcation between our species with body langue but the human player base is extreamly susceptible to meows, use this to your advantage!</span>
+</div>
+
+<script>
+// When the user clicks on <div>, open the popup
+function my() {
+  var popup = document.getElementById("myPopupone");
+  popup.classList.toggle("show");
+}
+</script>
+<p><a href="index.html">lesson is over for today o7 <p>
+
+</body>
+</html>
